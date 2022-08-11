@@ -1,4 +1,5 @@
 #!/bin/bash
 set -e
-sudo yum update -y
-sudo pm2 update
+sudo apt update -y
+sudo apt install git
+sudo apt install docker.io -y
